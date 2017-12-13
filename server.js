@@ -46,6 +46,6 @@ app.post('/',(req,res)=>{
     res.send("Bad request");
 });
 
-app.listen( process.env.PORT,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("Server is up: "+process.env.PORT);
 });
