@@ -4,7 +4,8 @@
   "description": "weather app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "jobayer mahamud",
   "license": "ISC",
@@ -15,5 +16,14 @@
     "lodash": "^4.17.4",
     "request": "^2.83.0",
     "yargs": "^10.0.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobayersozib/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jobayersozib/nodejs/issues"
+  },
+  "homepage": "https://github.com/jobayersozib/nodejs#readme"
 }
